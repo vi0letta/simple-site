@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-wrap {
+    background-color: #EEEFF1;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    
+}
+
+
+.header-nav {
+    padding-top: 50px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.header-link:first-child {
+    margin-left: 0;
+    color: #34547A;
+}
+
+.header-link:hover {
+    color: #34547A;
+}
+
+.main-info {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.h1 {
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.main-txt {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 65px;
+    margin-top: 50px;
+}
+
+.main-btn {
+    background-color: #34547A;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px 25px;
+    border: none;
+    margin-bottom: 100px;
+}
+
+.about-me {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    min-height: 150px;
+}
+
+.about-me-2 {
+    background-color: #EEEFF1;
+}
+
+.main-h2 {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 50px;
+
+}
+
+.about-txt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.bg-main-projects {
+    background-color: #34547A;
+    width: 100%;
+}
+
+.project-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.h3-project {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.project-txt {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.txt-project-box {
+    margin-left: 20px;
+}
+
+.main-video {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.video {
+    width: 100%;
+    min-height: 600px;
+}
+
+.bg-footer {
+    background-color: #34547A;
+}
+
+.footer-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.h6-footer {
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.privacy-policy {
+    font-weight: 400;
+    font-size: 13px;
+}
